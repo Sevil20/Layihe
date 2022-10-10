@@ -379,9 +379,14 @@
     }
 
     .around img {
-        width: 18.25px;
+        width: 22.25px;
         height: 20.79px;
         margin-top: 5px;
+    }
+
+    .around p {
+        width: 100%;
+        margin-top: 0px;
     }
 
     .big h1 {
@@ -402,7 +407,7 @@
     .auto {
         width: 225.36px;
         height: 93.19px;
-        margin: 410px 112px 75px 120px
+        margin: 410px 112px 75px 150px
     }
 
     .hover {
@@ -412,8 +417,11 @@
         height: 115.1px;
     }
 
-    .hover .img-5 {
-        margin-left: 370px;
+    .hover img {
+        width: 180px;
+        height: 218px;
+        margin-left: 306px;
+        margin-top: 42px;
     }
 
     .auto .blue-words {
@@ -435,6 +443,7 @@
         height: 43.34px;
         font-weight: 700;
         font-size: 26px;
+        margin-left: 190px;
     }
 
     .left-side p {
@@ -443,7 +452,8 @@
         font-weight: 400;
         font-size: 12px;
         line-height: 150%;
-        margin-right: 190px;
+        /* margin-right: 190px; */
+        margin-left: 190px;
     }
 
     .left-side {
@@ -456,7 +466,7 @@
     .left img {
         width: 170.55px;
         height: 160.29px;
-        margin: 56px 103px 45px -100px;
+        margin: 56px 103px 45px 25px;
     }
 
     .bold {
@@ -464,6 +474,7 @@
         height: 18.17px;
         font-weight: 700;
         font-size: 12px;
+        margin-left: 50px;
     }
 
     .bold-1 {
@@ -476,19 +487,19 @@
     .bold-2 {
         width: 69.9px;
         height: 18.17px;
-        left: 35px;
-        top: 615px;
         font-weight: 700;
         font-size: 12px;
+        margin-top: 125px;
+        margin-left: -385px;
     }
 
     .text {
         width: 86px;
         height: 18px;
-        left: 35px;
-        top: 563px;
         font-weight: 400;
         font-size: 10px;
+        margin-left: 50px;
+        line-height: 13px;
     }
 
     .text-1 {
@@ -503,10 +514,10 @@
     .text-2 {
         width: 76px;
         height: 18px;
-        left: 35px;
-        top: 634px;
         font-weight: 400;
         font-size: 10px;
+        margin-top: 5px;
+        margin-left: -380px;
     }
 
     .auto-1 img {
@@ -523,11 +534,7 @@
         width: 69.9px;
         height: 18.17px;
         font-size: 12px;
-        margin-left: 120px;
-    }
-
-    .text {
-        line-height: 13px;
+        margin-left: 150px;
     }
 
     .group-1 {
@@ -681,7 +688,7 @@
         font-weight: 700;
         font-size: 26px;
         line-height: 101.38%;
-        margin: 76px 28px 17px 36px;
+        margin: 76px 28px 17px 156px;
     }
 
     .display {
@@ -694,7 +701,7 @@
         height: 18.17px;
         font-size: 12px;
         line-height: 130%;
-        margin: 16.66px 270px 1px 35px;
+        margin: 16.66px 270px 1px 165px;
     }
 
     .display p {
@@ -703,7 +710,7 @@
         font-weight: 400;
         font-size: 10px;
         line-height: 130%;
-        margin: 1px 160px 10px 35px;
+        margin: 1px 160px 10px 165px;
     }
 
     .dis-2 h4 {
@@ -715,7 +722,7 @@
         height: 43.34px;
         font-size: 26px;
         line-height: 101.38%;
-        margin: 73px 28px 9.66px 36px;
+        margin: 73px 28px 9.66px 156px;
     }
 
     .list {
@@ -723,7 +730,7 @@
         line-height: 150%;
         width: 299px;
         height: 174px;
-        margin: 10px 32px 85px 44px;
+        margin: 10px 32px 85px 144px;
     }
 }
 
@@ -949,6 +956,7 @@
         font-weight: 700;
         font-size: 26px;
         line-height: 101.38%;
+        margin-left: 150px;
     }
 
     .zero {
@@ -967,6 +975,10 @@
         height: 33px;
         font-size: 22px;
         line-height: 130%;
+    }
+
+    .image-1 {
+        margin-left: 150px;
     }
 
     .image-1 p {
@@ -992,6 +1004,10 @@ p,
 h2 {
     font-family: 'Roboto';
     font-style: normal;
+}
+
+.sec7 {
+    width: 100%;
 }
 
 p {
@@ -1123,11 +1139,13 @@ span {
 .footer2 {
     display: flex;
     flex-direction: column;
-    padding-right: 146px;     
+    padding-right: 146px;
 }
-.footer2 img{
+
+.footer2 img {
     margin-left: 560px;
 }
+
 .footer3 {
     display: flex;
     flex-direction: row;
@@ -1236,6 +1254,10 @@ span {
     .text7-1 {
         margin-bottom: 60px;
     }
+
+    footer {
+        width: 1680px;
+    }
 }
 
 @media (max-width:990px) and (min-width:320px) {
@@ -1268,7 +1290,7 @@ span {
     }
 
     footer {
-        width: 100%;
+        width: 1680px;
     }
 
     .footer {
@@ -1294,5 +1316,9 @@ span {
 
     .footer2 {
         margin-top: 80px;
+    }
+
+    .sec7 {
+        width: 1680px;
     }
 }
